@@ -1,0 +1,26 @@
+# Azure SDK packages for Azure Automation
+azure-identity>=1.15.0
+azure-mgmt-resource>=23.0.0
+azure-mgmt-compute>=30.0.0
+azure-mgmt-storage>=21.0.0
+azure-mgmt-network>=25.0.0
+azure-mgmt-keyvault>=10.3.0
+azure-mgmt-sql>=3.0.0
+azure-mgmt-web>=7.2.0
+azure-mgmt-monitor>=6.0.1
+azure-mgmt-automation>=1.0.0,<2.0.0  # Use stable 1.0.0 or latest available
+azure-storage-blob>=12.19.0
+azure-storage-file>=2.1.0
+azure-keyvault-secrets>=4.7.0
+azure-keyvault-keys>=4.9.0
+azure-keyvault-certificates>=4.7.0
+
+# Additional useful packages for automation
+requests>=2.31.0
+python-dateutil>=2.8.2
+pytz>=2023.3
+cryptography>=41.0.0
+pyjwt>=2.8.0
+
+# Logging and debugging
+azure-monitor-opentelemetry>=1.2.0
